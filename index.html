@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HTML Forms Checkpoint Project</title>
+  </head>
+  <body>
+    <form>
+      <h1>Sign up for Awesome!</h1>
+      <div class="form-element">
+        <label for="email"><span class="label-title">E-mail</span></label><br>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-element">
+        <label for="password"><span class="label-title">Password</span></label><br>
+        <input type="password" id="password" name="password">
+      </div>
+      <div class="form-element">
+        <label for="github-username"><span class="label-title">GitHub Username</span></label><br>
+        <input type="text" id="github-username" name="github_username">
+      </div>
+      <div class="form-element" id="plan-levels">
+        <label><span class="label-title">Plan Level</span></label><br>
+        <input type="radio" id="enterprise" name="plan_level" value="enterprise">
+        <label for="enterprise">Enterprise</label>
+        <br>
+        <input type="radio" id="pro" name="plan_level" value="pro">
+        <label for="pro">Pro</label>
+        <br>
+        <input type="radio" id="free" name="plan_level" value="free">
+        <label for="free">Free</label>
+        <br>
+      </div>
+      <div class="form-element">
+        <input type="checkbox" id="remember-user" name="remember_user" value="yes_remember_user" checked>
+        <label for="remember-user">Remember Me</label>
+      </div>
+      <div class="form-element">
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+  </body>
+</html>

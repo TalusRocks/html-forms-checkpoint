@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  margin: 50px auto;
+  max-width: 500px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #e4e4e4;
+  padding: 10px;
+}
+
+.form-element {
+  margin: 10px;
+}
+
+h1, label, button {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+label, input {
+  font-size: 1em;
+}
+
+input {
+  padding-left: 10px;
+}
+
+#email, #password, #github-username {
+  margin-top: 5px;
+  width: 97%;
+  height: 40px;
+  border: none;
+}
+
+#enterprise, #pro, #free {
+  margin-top: 10px;
+}
+
+.label-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  background-color: #4286f4;
+  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+  border: none;
+  transition: .5s background-color;
+}
+
+button:hover {
+  background-color: #2c69cc;
+
+}
